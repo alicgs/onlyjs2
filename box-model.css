@@ -1,0 +1,44 @@
+*{
+    /*margin: 0; */
+     /*yazı pixeli ayarlanıyor*/
+     box-sizing: border-box;
+}
+
+h1{
+    border: 2px solid red;
+    
+}
+
+p{
+
+    /*Genlişlik(min-content demek ne kadar içerik yer kaplıyorsa genişil o kadar olsun demek)*/
+    width: 200px;
+
+    /*height: 10px;*/
+
+    /* Sağa sola kaydırılabiliyor 
+    overflow: scroll;*/
+
+    padding: 5rem; 
+
+    /*.
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 0px;
+    */
+    
+    /* ilki önce yukarı sonra sağ sonra aşağıdan sonra sol( top,right,bottom,left)*/
+    margin: 30px 100px 30px 20px;
+
+    border: 20px solid red;
+    border-right: 10px dotted blue;
+    border-bottom: 5px dashed green;
+
+    /* x yatay y düşey eksen
+    overflow-x: scroll;
+    */
+    
+    /*kenarlık yapar*/
+    border-radius: 50px;
+}
